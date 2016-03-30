@@ -3,7 +3,7 @@
     $rbies = json_decode($input);
     $width = 150;
     $height = 25;
-    $text = "test";//$rbies->ticker->lastprice." BTC";
+    $text = $rbies->ticker->lastprice." BTC";
     $fontsize = 5;
 
     $img = imagecreate($width, $height);
